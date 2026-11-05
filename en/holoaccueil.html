@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HoloAccueil, CNAM PACA — Aurore Monet</title>
+<meta name="description" content="Case study: a holographic welcome agent, from client need to installed prototype.">
+<meta property="og:title" content="HoloAccueil, CNAM PACA — Aurore Monet">
+<meta property="og:description" content="Case study: a holographic welcome agent, from client need to installed prototype.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="fr" href="../holoaccueil.html">
+<link rel="alternate" hreflang="en" href="holoaccueil.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="sun" aria-hidden="true"></span>Aurore Monet</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-link" href="index.html#projets">Projects</a>
+      <a class="nav-link" href="about.html">About</a>
+      <div class="lang" role="group" aria-label="Language"><a href="../holoaccueil.html" hreflang="fr" lang="fr">FR</a><span aria-current="true">EN</span></div>
+      <a class="btn btn-sun" href="index.html#contact">Contact me</a>
+    </nav>
+  </div>
+</header>
+<main id="contenu">
+<section class="wrap case-hero">
+  <a class="back" href="index.html#projets">← All projects</a>
+  <p class="eyebrow">Case study · CNAM PACA</p>
+  <h1 class="h1">A holographic welcome agent, from need to installed prototype</h1>
+  <p class="lead">Turning a “wow” ambition into a feasible scope, with €1,000 and 6 days of build time.</p>
+</section>
+<section class="wrap"><dl class="facts"><div><dt>Setting</dt><dd>Multidisciplinary project, CNAM engineering degree</dd></div><div><dt>Client</dt><dd>CNAM PACA</dd></div><div><dt>Period</dt><dd>Late 2025 – January 2026</dd></div><div><dt>Team</dt><dd>3 people for needs gathering and specifications, then 9 for delivery</dd></div><div><dt>My role</dt><dd>Needs analysis, writing the specifications, building the physical hologram</dd></div><div><dt>Constraints</dt><dd>€1,000 budget, 6 days of build time, a single power outlet, no sensitive data</dd></div></dl></section>
+<section class="narrow block"><h2 class="h2-s">Context</h2><div class="prose"><p>CNAM PACA wanted to modernize its reception area. The idea: a holographic assistant able to welcome visitors, answer their questions and guide them. The audience was very diverse: prospective students, people changing careers, business partners.</p></div></section>
+<section class="narrow block"><h2 class="h2-s">The problem</h2><div class="prose"><p>The client pictured a “wow” experience, with an AI that could understand anything. The budget was €1,000 and the deadline very short. The real work was turning this ambition into a feasible scope, and telling the client what was not feasible.</p></div></section>
+<section class="narrow block"><h2 class="h2-s">My approach</h2>
+<ol class="steps" start="1"><li><span class="num" aria-hidden="true">1</span><div><h3>Understand the need</h3><p>With my team, I analyzed the client's expectations, audiences and constraints. We ran a market and feasibility study to compare existing solutions.</p></div></li><li><span class="num" aria-hidden="true">2</span><div><h3>Write the specifications</h3><p>I documented the context, audiences and constraints, then five functions ranked by criticality. The specifications also cover performance criteria, GDPR compliance, risks and an MVP achievable in one month.</p><ol><li>Answer visitors' questions, the core of the value</li><li>Detect presence automatically, for a self-running system</li><li>Polish the design and staging, for credibility</li><li>Offer extra content (videos, documents)</li><li>Greet visitors out loud</li></ol></div></li><li><span class="num" aria-hidden="true">3</span><div><h3>Bring three teams together</h3><p>Three groups had explored three approaches in parallel. Halfway through, we decided to merge into a single team of 9, organized by expertise: AI, 3D avatar and hardware.</p></div></li><li><span class="num" aria-hidden="true">4</span><div><h3>Build the hologram</h3><p>I designed and built the plexiglass pyramid that creates the 3D illusion. I started with a miniature mock-up, then a full-size one. An angle issue in the cutting was fixed using plexiglass offcuts.</p></div></li></ol>
+<figure class="figure"><img src="../assets/hologramme.jpg" alt="The plexiglass pyramid and 3D avatar, being tested at CNAM" loading="lazy" width="990" height="700"><figcaption>Prototype being tested at CNAM: the plexiglass pyramid projects the avatar in 3D.</figcaption></figure>
+</section>
+<section class="band block-band" aria-labelledby="piv"><div class="wrap"><h2 class="h2-s" id="piv">Choices and pivots</h2><div class="pivots"><div class="pivot"><strong>Cloud AI → local AI</strong><p>Cloud services were not compatible with the 3D engine. We switched to a lightweight model hosted on site, which also solved the data question.</p></div><div class="pivot"><strong>Fine-tuning → RAG</strong><p>Retraining a model gave unreliable answers. We switched to a CNAM document base queried by the AI, with better results.</p></div></div></div></section>
+<section class="wrap block" aria-labelledby="res"><h2 class="h2-s" id="res">Results</h2><div class="results"><div class="result">A working proof of concept, installed on site</div><div class="result">€111 spent out of a €1,000 budget</div><div class="result">Deliverables: prototype, source code, specifications and hologram</div></div></section>
+<section class="narrow block"><h2 class="h2-s">What I learned</h2><div class="prose"><p>Clients sometimes ask for the impossible. A BA's job is to understand the real need and offer the solution that best meets it, within the constraints. I also learned that one team building on everyone's strengths goes further than three teams competing.</p></div></section>
+<section class="next" aria-label="Next project">
+  <div class="wrap">
+    <div><small>Next project</small><p>Ollioules escape game</p></div>
+    <a class="btn btn-dark" href="escape-game.html">See the project →</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Aurore Monet</span>
+    <span><a href="mailto:aurore.monet007@gmail.com">aurore.monet007@gmail.com</a> · <a href="https://www.linkedin.com/in/aurore-monet">LinkedIn</a></span>
+  </div>
+</footer>
+</body>
+</html>

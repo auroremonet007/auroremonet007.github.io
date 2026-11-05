@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module Forms, EGERIE — Aurore Monet</title>
+<meta name="description" content="Cas d'étude : faire passer un MVP à l'échelle des grands comptes avec une équipe réduite.">
+<meta property="og:title" content="Module Forms, EGERIE — Aurore Monet">
+<meta property="og:description" content="Cas d'étude : faire passer un MVP à l'échelle des grands comptes avec une équipe réduite.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="fr" href="forms-egerie.html">
+<link rel="alternate" hreflang="en" href="en/forms-egerie.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="sun" aria-hidden="true"></span>Aurore Monet</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="nav-link" href="index.html#projets">Projets</a>
+      <a class="nav-link" href="about.html">À propos</a>
+      <div class="lang" role="group" aria-label="Langue"><span aria-current="true">FR</span><a href="en/forms-egerie.html" hreflang="en" lang="en">EN</a></div>
+      <a class="btn btn-sun" href="index.html#contact">Me contacter</a>
+    </nav>
+  </div>
+</header>
+<main id="contenu">
+<section class="wrap case-hero">
+  <a class="back" href="index.html#projets">← Tous les projets</a>
+  <p class="eyebrow">Cas d'étude · EGERIE</p>
+  <h1 class="h1">Faire passer un MVP à l'échelle des grands comptes</h1>
+  <p class="lead">Comment j'ai amélioré le module Forms d'une plateforme de gestion des risques cyber, avec une équipe réduite, en livrant d'abord ce qui débloquait les clients.</p>
+</section>
+<section class="wrap"><dl class="facts"><div><dt>Entreprise</dt><dd>EGERIE, éditeur français de logiciels de gestion des risques cyber (Cyber GRC)</dd></div><div><dt>Rôle</dt><dd>Product Owner (alternance)</dd></div><div><dt>Période</dt><dd>Fin 2025 – mi 2026</dd></div><div><dt>Équipe</dt><dd>1 développeur front-end, 1 développeur back-end, 1 QA, avec l'appui du design et d'un Product Manager</dd></div><div><dt>Organisation</dt><dd>Agilité à l'échelle (SAFe, 3 Program Increments), flux Kanban au quotidien</dd></div><div><dt>Outils et méthodes</dt><dd>Jira, Notion · JTBD, job map, MoSCoW, Kano, impact/effort, Gherkin</dd></div></dl></section>
+<section class="narrow block"><h2 class="h2-s">Le contexte</h2><div class="prose"><p>Le module Forms permet aux entreprises de collecter des informations auprès de leurs collaborateurs et de leurs fournisseurs, pour mesurer les risques liés à ces parties prenantes. Un responsable risques crée un formulaire, l'envoie à des dizaines de répondants, suit les réponses, puis les exploite dans son analyse.</p><p>Le module avait été lancé comme un MVP. Mais des clients grands comptes l'utilisaient désormais à grande échelle, parfois pour des centaines de formulaires par an. Au même moment, l'entreprise concentrait ses développeurs sur sa nouvelle plateforme. Il fallait donc améliorer le module existant avec une équipe très réduite.</p></div></section>
+<section class="band block-band" aria-labelledby="pb">
+  <div class="wrap">
+    <h2 class="h2-s" id="pb">Le problème</h2>
+    <p class="muted" style="max-width:760px">Les frictions s'accumulaient et les tickets support augmentaient. En analysant les parcours, j'ai vu que la création, l'envoi et la saisie fonctionnaient bien. La rupture se situait à la fin, au moment d'exploiter les réponses.</p>
+    <div class="journey"><div class="stage"><small>Étape 1</small><strong>Conception</strong><em>Stable</em></div><div class="arrow" aria-hidden="true">→</div><div class="stage"><small>Étape 2</small><strong>Diffusion</strong><em>Stable</em></div><div class="arrow" aria-hidden="true">→</div><div class="stage"><small>Étape 3</small><strong>Collecte</strong><em>Stable</em></div><div class="arrow" aria-hidden="true">→</div><div class="stage break"><small>Étape 4</small><strong>Exploitation</strong><em>Point de rupture</em></div></div>
+    <div class="grid3"><div class="panel"><h3>Pas de preuve exportable</h3><p>Pour constituer leurs dossiers d'audit, les clients imprimaient les réponses avec Ctrl + P depuis leur navigateur.</p></div><div class="panel"><h3>Pas d'alerte à la soumission</h3><p>Les responsables vérifiaient chaque jour, à la main, si des formulaires avaient été remplis.</p></div><div class="panel"><h3>Des réponses difficiles d'accès</h3><p>Il fallait plusieurs clics pour retrouver une réponse et comprendre son statut.</p></div></div>
+  </div>
+</section>
+<section class="narrow block"><h2 class="h2-s">Mon rôle</h2><div class="prose"><p>J'ai porté le sujet de bout en bout : l'analyse des besoins, la recherche de solutions avec l'équipe, la rédaction des user stories, la priorisation, l'animation des ateliers et le suivi jusqu'à la mise en production.</p></div></section>
+<section class="narrow block"><h2 class="h2-s">Ma démarche</h2>
+<ol class="steps" start="1"><li><span class="num" aria-hidden="true">1</span><div><h3>Partir du terrain</h3><p>J'ai analysé les tickets clients, participé aux réunions où le sujet était abordé et recueilli les retours des équipes commerciales et Customer Success. J'ai aussi mené des ateliers avec deux clients pilotes : un groupe industriel international et une mutuelle grand compte.</p></div></li><li><span class="num" aria-hidden="true">2</span><div><h3>Reformuler les demandes en besoins</h3><p>Les clients arrivaient avec des solutions toutes faites. En les reformulant en Jobs-to-be-Done, j'ai montré que « je veux un export PDF » cachait un besoin plus profond : prouver, lors d'un audit, qu'un fournisseur a bien été évalué à une date donnée.</p></div></li><li><span class="num" aria-hidden="true">3</span><div><h3>Prioriser en trois étapes</h3><p>J'ai fait passer toutes les demandes par un entonnoir :</p><ol><li><strong>MoSCoW</strong> pour délimiter le périmètre ;</li><li><strong>Kano</strong> pour distinguer l'indispensable de l'agréable ;</li><li><strong>Matrice impact/effort</strong>, estimée avec les développeurs, pour repérer les gains rapides.</li></ol></div></li></ol>
+</section>
+<section class="wrap"><div class="moscow" aria-label="MoSCoW"><div class="mcol must"><small>MUST HAVE</small><strong>Livré</strong><ul><li>Export PDF d'une réponse</li><li>Accès direct aux statuts</li><li>Notification de soumission</li></ul></div><div class="mcol "><small>SHOULD HAVE</small><strong>Si la capacité le permet</strong><ul><li>Affichage des seules mesures modifiées</li><li>Graphique de criticité adaptatif</li></ul></div><div class="mcol "><small>COULD HAVE</small><strong>Exclu</strong><ul><li>Modèles d'e-mails personnalisés</li><li>Champs calculés</li></ul></div><div class="mcol wont"><small>WON'T HAVE</small><strong>Reporté à la nouvelle plateforme</strong><ul><li>Moteur de règles</li><li>Workflows de co-validation</li><li>Accès ouvert sans invitation</li></ul></div></div></section>
+<section class="narrow">
+<ol class="steps" start="4"><li><span class="num" aria-hidden="true">4</span><div><h3>Savoir dire non</h3><p>Plusieurs demandes touchaient au système de droits ou au modèle de données. Les développer sur un code amené à être remplacé aurait coûté cher et créé de la dette technique. J'ai expliqué par écrit aux clients pourquoi ces évolutions ne seraient pas faites tout de suite. Ils ont accepté un périmètre plus réduit, livré plus vite.</p></div></li><li><span class="num" aria-hidden="true">5</span><div><h3>Spécifier pour l'équipe</h3><p>J'ai rédigé les user stories et leurs critères d'acceptation au format Gherkin, pour donner à la QA un cadre de test clair.</p></div></li></ol>
+</section>
+<section class="band block-band" aria-labelledby="liv">
+  <div class="wrap split">
+    <div>
+      <h2 class="h2-s" id="liv">Ce qui a été livré</h2>
+      <div class="deliv"><div><h3>Accès</h3><p class="muted">Un accès aux réponses en un clic, avec des statuts clairs (En cours, Soumis, Expiré).</p></div><div><h3>Preuve</h3><p class="muted">Un export PDF fidèle à l'interface, avec la date et l'identité du répondant, généré en arrière-plan sans bloquer l'utilisateur.</p></div><div><h3>Réactivité</h3><p class="muted">Une notification envoyée au responsable dès qu'un formulaire est soumis, avec un lien direct vers la réponse.</p></div></div>
+    </div>
+    <figure class="story">
+      <figcaption>Exemple de user story · reconstitué et anonymisé</figcaption>
+      <p>En tant que responsable risques, je veux exporter une réponse en PDF, afin de conserver une preuve d'évaluation dans mon dossier d'audit.</p>
+      <div class="gherkin"><div><b>Scénario</b> : export d'une réponse soumise</div><div><b>Étant donné</b> qu'une réponse a le statut « Soumis »</div><div><b>Quand</b> je clique sur « Exporter en PDF »</div><div><b>Alors</b> l'export est lancé en arrière-plan et je peux continuer à naviguer</div><div><b>Et</b> le PDF contient les réponses, la date de soumission et le nom du répondant</div></div>
+    </figure>
+  </div>
+</section>
+<section class="wrap block" aria-labelledby="res">
+  <h2 class="h2-s" id="res">Les résultats</h2>
+  <div class="results"><div class="result">Moins de tickets support sur les sujets traités</div><div class="result">Export adopté dès sa sortie, fin du contournement par Ctrl + P</div><div class="result">Un client devenu partenaire pilote pour concevoir la version suivante</div><div class="result">Aucune dette technique ajoutée : l'export réutilise la file de tâches existante</div></div>
+  <blockquote class="quote">
+    <p>« Une fonctionnalité attendue depuis longtemps. »</p>
+    <footer>Une mutuelle grand compte, cliente pilote</footer>
+  </blockquote>
+</section>
+<section class="narrow block"><h2 class="h2-s">Ce que j'en retiens</h2><div class="prose"><p>Une demande client n'est pas un besoin : il faut la déconstruire avant de développer. Améliorer un produit ne demande pas toujours une refonte ; quelques évolutions bien choisies peuvent débloquer l'usage. Et un « non » argumenté et transparent renforce la confiance du client au lieu de l'abîmer.</p></div></section>
+<section class="next" aria-label="Projet suivant">
+  <div class="wrap">
+    <div><small>Projet suivant</small><p>HoloAccueil, CNAM PACA</p></div>
+    <a class="btn btn-dark" href="holoaccueil.html">Voir le projet →</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Aurore Monet</span>
+    <span><a href="mailto:aurore.monet007@gmail.com">aurore.monet007@gmail.com</a> · <a href="https://www.linkedin.com/in/aurore-monet">LinkedIn</a></span>
+  </div>
+</footer>
+</body>
+</html>

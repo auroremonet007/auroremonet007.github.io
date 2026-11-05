@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forms module, EGERIE — Aurore Monet</title>
+<meta name="description" content="Case study: scaling an MVP for enterprise clients with a small team.">
+<meta property="og:title" content="Forms module, EGERIE — Aurore Monet">
+<meta property="og:description" content="Case study: scaling an MVP for enterprise clients with a small team.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="fr" href="../forms-egerie.html">
+<link rel="alternate" hreflang="en" href="forms-egerie.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="sun" aria-hidden="true"></span>Aurore Monet</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-link" href="index.html#projets">Projects</a>
+      <a class="nav-link" href="about.html">About</a>
+      <div class="lang" role="group" aria-label="Language"><a href="../forms-egerie.html" hreflang="fr" lang="fr">FR</a><span aria-current="true">EN</span></div>
+      <a class="btn btn-sun" href="index.html#contact">Contact me</a>
+    </nav>
+  </div>
+</header>
+<main id="contenu">
+<section class="wrap case-hero">
+  <a class="back" href="index.html#projets">← All projects</a>
+  <p class="eyebrow">Case study · EGERIE</p>
+  <h1 class="h1">Scaling an MVP for enterprise clients</h1>
+  <p class="lead">How I improved the Forms module of a cyber risk management platform with a small team, by delivering first what unblocked clients.</p>
+</section>
+<section class="wrap"><dl class="facts"><div><dt>Company</dt><dd>EGERIE, French publisher of cyber risk management software (Cyber GRC)</dd></div><div><dt>Role</dt><dd>Product Owner (work-study)</dd></div><div><dt>Period</dt><dd>Late 2025 – mid 2026</dd></div><div><dt>Team</dt><dd>1 front-end developer, 1 back-end developer, 1 QA engineer, supported by design and a Product Manager</dd></div><div><dt>Organization</dt><dd>Scaled agile (SAFe, 3 Program Increments), daily Kanban flow</dd></div><div><dt>Tools and methods</dt><dd>Jira, Notion · JTBD, job map, MoSCoW, Kano, impact/effort, Gherkin</dd></div></dl></section>
+<section class="narrow block"><h2 class="h2-s">Context</h2><div class="prose"><p>The Forms module lets companies collect information from their employees and suppliers, to assess the risks linked to these stakeholders. A risk manager creates a form, sends it to dozens of respondents, tracks the answers, then uses them in their analysis.</p><p>The module had been launched as an MVP. But enterprise clients were now using it at scale, sometimes for hundreds of forms a year. At the same time, the company was focusing its developers on its new platform. The challenge: improve the existing module with a very small team.</p></div></section>
+<section class="band block-band" aria-labelledby="pb">
+  <div class="wrap">
+    <h2 class="h2-s" id="pb">The problem</h2>
+    <p class="muted" style="max-width:760px">Friction was building up and support tickets were rising. By analyzing user journeys, I saw that creating, sending and filling in forms worked well. The breaking point was at the end, when users needed to work with the answers.</p>
+    <div class="journey"><div class="stage"><small>Stage 1</small><strong>Design</strong><em>Stable</em></div><div class="arrow" aria-hidden="true">→</div><div class="stage"><small>Stage 2</small><strong>Distribution</strong><em>Stable</em></div><div class="arrow" aria-hidden="true">→</div><div class="stage"><small>Stage 3</small><strong>Collection</strong><em>Stable</em></div><div class="arrow" aria-hidden="true">→</div><div class="stage break"><small>Stage 4</small><strong>Use of answers</strong><em>Breaking point</em></div></div>
+    <div class="grid3"><div class="panel"><h3>No exportable proof</h3><p>To build their audit files, clients printed answers with Ctrl + P from their browser.</p></div><div class="panel"><h3>No alert on submission</h3><p>Managers checked by hand, every day, whether forms had been completed.</p></div><div class="panel"><h3>Answers hard to reach</h3><p>It took several clicks to find an answer and understand its status.</p></div></div>
+  </div>
+</section>
+<section class="narrow block"><h2 class="h2-s">My role</h2><div class="prose"><p>I owned the topic end to end: needs analysis, solution design with the team, user stories, prioritization, workshops and follow-up through to release.</p></div></section>
+<section class="narrow block"><h2 class="h2-s">My approach</h2>
+<ol class="steps" start="1"><li><span class="num" aria-hidden="true">1</span><div><h3>Start from the field</h3><p>I analyzed client tickets, joined meetings where the topic came up, and gathered feedback from the sales and Customer Success teams. I also ran workshops with two pilot clients: an international industrial group and a large mutual insurance company.</p></div></li><li><span class="num" aria-hidden="true">2</span><div><h3>Turn requests into needs</h3><p>Clients came with ready-made solutions. By reframing them as Jobs-to-be-Done, I showed that “I want a PDF export” hid a deeper need: proving, during an audit, that a supplier had been assessed on a given date.</p></div></li><li><span class="num" aria-hidden="true">3</span><div><h3>Prioritize in three steps</h3><p>I put every request through a funnel:</p><ol><li><strong>MoSCoW</strong> to set the scope;</li><li><strong>Kano</strong> to separate the essential from the nice-to-have;</li><li><strong>Impact/effort matrix</strong>, estimated with the developers, to spot quick wins.</li></ol></div></li></ol>
+</section>
+<section class="wrap"><div class="moscow" aria-label="MoSCoW"><div class="mcol must"><small>MUST HAVE</small><strong>Delivered</strong><ul><li>PDF export of an answer</li><li>Direct access to statuses</li><li>Submission notification</li></ul></div><div class="mcol "><small>SHOULD HAVE</small><strong>If capacity allows</strong><ul><li>Show only changed measures</li><li>Adaptive criticality chart</li></ul></div><div class="mcol "><small>COULD HAVE</small><strong>Excluded</strong><ul><li>Custom email templates</li><li>Calculated fields</li></ul></div><div class="mcol wont"><small>WON'T HAVE</small><strong>Postponed to the new platform</strong><ul><li>Rules engine</li><li>Co-validation workflows</li><li>Open access without invitation</li></ul></div></div></section>
+<section class="narrow">
+<ol class="steps" start="4"><li><span class="num" aria-hidden="true">4</span><div><h3>Know when to say no</h3><p>Several requests affected the permission system or the data model. Building them on code due to be replaced would have been costly and created technical debt. I explained in writing to clients why these changes would not be made right away. They accepted a smaller scope, delivered faster.</p></div></li><li><span class="num" aria-hidden="true">5</span><div><h3>Specify for the team</h3><p>I wrote the user stories and their acceptance criteria in Gherkin, giving QA a clear testing framework.</p></div></li></ol>
+</section>
+<section class="band block-band" aria-labelledby="liv">
+  <div class="wrap split">
+    <div>
+      <h2 class="h2-s" id="liv">What was delivered</h2>
+      <div class="deliv"><div><h3>Access</h3><p class="muted">One-click access to answers, with clear statuses (In progress, Submitted, Expired).</p></div><div><h3>Proof</h3><p class="muted">A PDF export that matches the interface, with the date and the respondent's name, generated in the background without blocking the user.</p></div><div><h3>Responsiveness</h3><p class="muted">A notification sent to the manager as soon as a form is submitted, with a direct link to the answer.</p></div></div>
+    </div>
+    <figure class="story">
+      <figcaption>Sample user story · rebuilt and anonymized</figcaption>
+      <p>As a risk manager, I want to export an answer as a PDF, so that I can keep proof of the assessment in my audit file.</p>
+      <div class="gherkin"><div><b>Scenario</b>: exporting a submitted answer</div><div><b>Given</b> an answer has the status “Submitted”</div><div><b>When</b> I click “Export to PDF”</div><div><b>Then</b> the export runs in the background and I can keep browsing</div><div><b>And</b> the PDF contains the answers, the submission date and the respondent's name</div></div>
+    </figure>
+  </div>
+</section>
+<section class="wrap block" aria-labelledby="res">
+  <h2 class="h2-s" id="res">Results</h2>
+  <div class="results"><div class="result">Fewer support tickets on the topics addressed</div><div class="result">Export adopted on release, end of the Ctrl + P workaround</div><div class="result">A client became a pilot partner to co-design the next version</div><div class="result">No added technical debt: the export reuses the existing job queue</div></div>
+  <blockquote class="quote">
+    <p>“A long-awaited feature.”</p>
+    <footer>A large mutual insurance company, pilot client</footer>
+  </blockquote>
+</section>
+<section class="narrow block"><h2 class="h2-s">What I learned</h2><div class="prose"><p>A client request is not a need: it must be broken down before building anything. Improving a product doesn't always require a redesign; a few well-chosen changes can unlock usage. And a transparent, well-argued “no” builds client trust instead of damaging it.</p></div></section>
+<section class="next" aria-label="Next project">
+  <div class="wrap">
+    <div><small>Next project</small><p>HoloAccueil, CNAM PACA</p></div>
+    <a class="btn btn-dark" href="holoaccueil.html">See the project →</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Aurore Monet</span>
+    <span><a href="mailto:aurore.monet007@gmail.com">aurore.monet007@gmail.com</a> · <a href="https://www.linkedin.com/in/aurore-monet">LinkedIn</a></span>
+  </div>
+</footer>
+</body>
+</html>
